@@ -1,0 +1,141 @@
+{
+  "notas": [
+    {
+      "id": 1,
+      "nome": "minima",
+      "matematica": "717",
+      "linguagens": "663",
+      "humanas": "632",
+      "natureza": "399",
+      "redacao": "840"
+    },
+    {
+      "id": 2,
+      "nome": "media",
+      "matematica": "753",
+      "linguagens": "696",
+      "humanas": "664",
+      "natureza": "419",
+      "redacao": "840"
+    },
+    {
+      "id": 3,
+      "nome": "maxima",
+      "matematica": "806.2",
+      "linguagens": "611.2",
+      "humanas": "634.3",
+      "natureza": "537",
+      "redacao": "740"
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "Ciências de computação",
+      "universidade": "USP",
+      "campus": "ICMC (São Carlos)",
+      "pesoMatematica": "3",
+      "pesoLinguagens": "2",
+      "pesoHumanas": "1",
+      "pesoNatureza": "2",
+      "pesoRedacao": "2",
+      "notaDeCorte": "817.85",
+      "id": 4
+    },
+    {
+      "nome": "Ciência da computação",
+      "universidade": "USP",
+      "campus": "FFCRLP (Ribeirão Preto)",
+      "pesoMatematica": "2",
+      "pesoLinguagens": "1",
+      "pesoHumanas": "1",
+      "pesoNatureza": "1",
+      "pesoRedacao": "2",
+      "notaDeCorte": "817.6",
+      "id": 6
+    },
+    {
+      "nome": "Sistemas de informação",
+      "universidade": "USP",
+      "campus": "ICMC (São Carlos)",
+      "pesoMatematica": "3",
+      "pesoLinguagens": "2",
+      "pesoHumanas": "1",
+      "pesoNatureza": "2",
+      "pesoRedacao": "2",
+      "notaDeCorte": "795.86",
+      "id": 7
+    },
+    {
+      "nome": "Engenharia de computação",
+      "universidade": "USP",
+      "campus": "Escola politécnica (SP)",
+      "pesoMatematica": "2.5",
+      "pesoLinguagens": "2",
+      "pesoHumanas": "1.5",
+      "pesoNatureza": "2.5",
+      "pesoRedacao": "1.5",
+      "notaDeCorte": "826.75",
+      "id": 8
+    },
+    {
+      "nome": "Engenharia de computação",
+      "universidade": "USP",
+      "campus": "Escola de engenharia de São Carlos",
+      "pesoMatematica": "2.5",
+      "pesoLinguagens": "1.5",
+      "pesoHumanas": "1.5",
+      "pesoNatureza": "2",
+      "pesoRedacao": "2.5",
+      "notaDeCorte": "830.75",
+      "id": 9
+    },
+    {
+      "nome": "Matemática Aplicada a Negócios",
+      "universidade": "USP",
+      "campus": "FFCRLP (Ribeirão Preto)",
+      "pesoMatematica": "2",
+      "pesoLinguagens": "1",
+      "pesoHumanas": "1",
+      "pesoNatureza": "1",
+      "pesoRedacao": "2",
+      "notaDeCorte": "789.43",
+      "id": 10
+    },
+    {
+      "nome": "Matemática",
+      "universidade": "USP",
+      "campus": "ICMC (São Carlos)",
+      "pesoMatematica": "3",
+      "pesoLinguagens": "2",
+      "pesoHumanas": "1",
+      "pesoNatureza": "2",
+      "pesoRedacao": "2",
+      "notaDeCorte": "780.9",
+      "id": 11
+    },
+    {
+      "nome": "Peso 1 no geral",
+      "universidade": "A",
+      "campus": "A",
+      "pesoMatematica": "1",
+      "pesoLinguagens": "1",
+      "pesoHumanas": "1",
+      "pesoNatureza": "1",
+      "pesoRedacao": "1",
+      "notaDeCorte": "1000",
+      "id": 13
+    },
+    {
+      "nome": "Engenharia de computação",
+      "universidade": "UFSCAR",
+      "campus": "UFSCar",
+      "pesoMatematica": "2",
+      "pesoLinguagens": "2",
+      "pesoHumanas": "1",
+      "pesoNatureza": "1",
+      "pesoRedacao": "2",
+      "notaDeCorte": "714.31",
+      "id": 14
+    }
+  ]
+}

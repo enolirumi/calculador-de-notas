@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Comparador de notas</title>
+</head>
+
+<body class="p-5 d-flex flex-wrap">
+    <div class="col-9 d-flex flex-column" style="overflow-y: auto; overflow-x: hidden; max-height: 90vh;">
+        <h3>Notas</h3>
+        <div class="row mt-5">
+            <form id="form-nota-minima" data-form-name="NotaMinima" action="javascript:void(0)" class="col-4 d-flex flex-column px-5">
+                <h5>Mínima</h5>
+                <label class="d-flex flex-column mt-3">
+                    Matemática
+                    <input type="text" name="matematica" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Linguagens
+                    <input type="text" name="linguagens" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Humanas
+                    <input type="text" name="humanas" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Natureza
+                    <input type="text" name="natureza" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Redação
+                    <input type="text" name="redacao" class="w-100">
+                </label>
+                <button type="submit" class="btn-sm btn btn-success mt-4">Cadastrar</button>
+            </form>
+            <form id="form-nota-media" data-form-name="NotaMedia" action="javascript:void(0)" class="col-4 d-flex flex-column px-5">
+                <h5>Média</h5>
+                <label class="d-flex flex-column mt-3">
+                    Matemática
+                    <input type="text" name="matematica" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Linguagens
+                    <input type="text" name="linguagens" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Humanas
+                    <input type="text" name="humanas" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Natureza
+                    <input type="text" name="natureza" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Redação
+                    <input type="text" name="redacao" class="w-100">
+                </label>
+                <button type="submit" class="btn-sm btn btn-success mt-4">Cadastrar</button>
+            </form>
+            <form id="form-nota-maxima" data-form-name="NotaMaxima" action="javascript:void(0)" class="col-4 d-flex flex-column px-5">
+                <h5>Máxima</h5>
+                <label class="d-flex flex-column mt-3">
+                    Matemática
+                    <input type="text" name="matematica" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Linguagens
+                    <input type="text" name="linguagens" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Humanas
+                    <input type="text" name="humanas" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Natureza
+                    <input type="text" name="natureza" class="w-100">
+                </label>
+                <label class="d-flex flex-column mt-3">
+                    Redação
+                    <input type="text" name="redacao" class="w-100">
+                </label>
+                <button type="submit" class="btn-sm btn btn-success mt-4">Cadastrar</button>
+            </form>
+        </div>
+        <div class="mt-5">
+            <h3>Cursos:</h3> 
+            <div class="cursos-container d-flex flex-column col-12 p-5">
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-3 d-flex flex-column bg-light p-4" style="min-height: 90vh;">
+        <form id="form-curso" action="javascript:void(0)" class="w-100 d-flex flex-column">
+            <h5>Cadastro de cursos</h5>
+            <label class="d-flex flex-column mt-3">
+                Nome
+                <input type="text" name="nome" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Universidade
+                <input type="text" name="universidade" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Campus
+                <input type="text" name="campus" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Peso Matemática
+                <input type="text" name="pesoMatematica" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Peso Linguagens
+                <input type="text" name="pesoLinguagens" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Peso Humanas
+                <input type="text" name="pesoHumanas" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Peso Natureza
+                <input type="text" name="pesoNatureza" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Peso Redação
+                <input type="text" name="pesoRedacao" class="w-100">
+            </label>
+            <label class="d-flex flex-column mt-3">
+                Nota de corte
+                <input type="text" name="notaDeCorte" name="corte" class="w-100">
+            </label>
+            <div class="d-flex justify-content-between">
+                <button type="reset" class="btn btn-sm btn-secondary mt-3">Limpar</button>
+                <button type="submit" class="btn btn-sm btn-success mt-3">Cadastrar/Editar</button>
+            </div>
+        </form>
+        <div class="mt-4 d-flex flex-column">
+            <h5>Resultado</h5>
+            <div class="resultado-container d-flex">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./variaveis.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
